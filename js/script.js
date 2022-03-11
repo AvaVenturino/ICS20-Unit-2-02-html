@@ -10,7 +10,7 @@
 function doMathClicked() {
   // this function does basic math
 
-console.log("Hello, World!")
-  document.getElementById('multiply-math').innerHTML = '<p>The area is = ' + (5 * 3) + '</p>'
-  document.getElementById('add-math').innerHTML = '<p> The perimeter is = ' + (7 - 3) + '</p>'
- 
+  
+  document.getElementById('multiply-math').innerHTML = '<p>The area is = ' + (5 * 3) + ' cm²</p>'
+  document.getElementById('add-math').innerHTML = '<p> The perimeter is = ' + (5 + 5 + 3 + 3) + ' cm</p>'
+}
